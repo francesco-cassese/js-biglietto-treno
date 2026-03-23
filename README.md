@@ -29,7 +29,7 @@ Chiedere Nome, età e numero di km da percorrere
 
 - Moltiplicare i km da percorrere per il prezzo base (0.21€ al KM)
 
-    - SE l'età e minore di 18 appliccare uno sconto del 20%
+    - SE l'età è minore di 18 appliccare uno sconto del 20%
 
     - ALTRIMENTI SE l'eta è maggiore di 65 applicare uno sconto del 40%
 
