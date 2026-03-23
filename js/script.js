@@ -25,19 +25,20 @@ const basePrice = distanceInKm * 0.21;
     =======================================
 */
 
+// Definisco variabile da usare il prezzo finale
 let totalPrice = 0;
 
 if(passengerAge < 18){
 
-    totalPrice = basePrice * 0.8;
+    totalPrice = basePrice * 0.8; //I minorenni pagano l'80% (Sconto del 20%)
 
 } else if (passengerAge > 65){
 
-    totalPrice = basePrice * 0.6;
+    totalPrice = basePrice * 0.6; //I "Senior" pagano il 60% (Sconto del 40%) 
 
 } else {
     
-    totalPrice = basePrice;
+    totalPrice = basePrice; //Nessuna agevolazione applicata
 }
 
 /*
