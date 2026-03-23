@@ -23,9 +23,9 @@ Per verificare la correttezza della logica:
 
 ---
 
-## Pseudo codice
+## Pseudocodice
 
-Chiedere Nome, Cognome, età e numero di km da percorrere
+Chiedere Nome, età e numero di km da percorrere
 
 - Moltiplicare i km da percorrere per il prezzo base (0.21€ al KM)
 
