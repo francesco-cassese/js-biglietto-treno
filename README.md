@@ -25,20 +25,25 @@ Per verificare la correttezza della logica:
 
 ## Pseudocodice
 
-Chiedere Nome, età e numero di km da percorrere
+CALCOLARE IL COSTO DEL BIGLIETTO DEL TRENO
 
-- Moltiplicare i km da percorrere per il prezzo base (0.21€ al KM)
+- Chiedere Nome, età e numero di km da percorrere
 
-    - SE l'età è minore di 18 appliccare uno sconto del 20%
+    - Controllare se nei prompt dell'età e della distanza in km vengamo immessi valori coerenti
 
-    - ALTRIMENTI SE l'eta è maggiore di 65 applicare uno sconto del 40%
+        - Moltiplicare i km da percorrere per il prezzo base (0.21€ al KM)
 
-    - ALTRIMENTI applicare prezzo pieno
+            - SE l'età è minore di 18 appliccare uno sconto del 20%
 
-- Formattare il prezzo finale avente solo due numeri decimali.
+            - ALTRIMENTI SE l'eta è maggiore di 65 applicare uno sconto del 40%
 
-Output: Stampare risultato in questo formato es"€13,20"
+            - ALTRIMENTI applicare prezzo pieno
+
+        - Formattare il prezzo finale avente solo due numeri decimali.
+
+    - Output: Stampare risultato in questo formato es"€13,20"
 
 ---
+IL PREZZO DA PAGARE È...
 
 *Esercizio Boolean - Corso Full Stack Web Development*
