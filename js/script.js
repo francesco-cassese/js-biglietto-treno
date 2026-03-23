@@ -16,8 +16,8 @@ const distanceInKm = parseFloat( prompt("Inserisci qui i KM da percorrere"));
     =========================================
 */
 
-if( (isNaN(passengerAge)) || isNaN(distanceInKm) ){
-    console.error("Inserisci un numero per favore")
+if( isNaN(passengerAge) || isNaN(distanceInKm) ){
+    console.error("Inserisci un numero per favore");
 } else{
 
     const basePrice = distanceInKm * 0.21; //Calcolo prezzo base biglietto
